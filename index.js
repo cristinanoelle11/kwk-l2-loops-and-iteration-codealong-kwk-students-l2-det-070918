@@ -5,6 +5,7 @@ for (let i = 0; i < names.length; i++){
 }
 return names;
 }
+
 function tailsNeverFails(){
   let tails = 0;
   return Math.random()>=0.5;
