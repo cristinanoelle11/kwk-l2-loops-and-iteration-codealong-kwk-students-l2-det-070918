@@ -9,7 +9,7 @@ function tailsNeverFails(){
   let tails = 0;
   return Math.random()>=0.5;
 }
-while (tailsNeverFails()){
+while (Math.random()){
   
 }
 return (`you got ${tails} tails in a row!`)
