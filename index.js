@@ -5,4 +5,9 @@ for (let i = 0; i < names.length; i++){
 }
 return names;
 }
-function tailsNeverFails()
+function tailsNeverFails(){
+  return Math.random()<=2;
+}
+while (tailsNeverFails()){
+  console.log
+}
