@@ -1,6 +1,6 @@
 // Code your solutions in this file
 function printBadges (names){
-for (var counter = 0; counter < names.length; counter++){
-  console.log(`Welcome ${names[counter]}! You are employee #${counter + 1}.`);}
+for (let i = 0; i < names.length; i++){
+  console.log(`Welcome ${names[i]}! You are employee #${i + 1}.`);}
 }
-return names
+return names;
